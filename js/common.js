@@ -24,7 +24,8 @@ $(function(){
         })//click
         
    })//click
-   
+
+
    //カルーセル設定
    $(".owl-carousel").owlCarousel(
    {

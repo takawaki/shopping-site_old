@@ -7,10 +7,6 @@ $base_bg:#f9f8f6; //本来は#f9f8f6;
 $contents_bg:#fff;
 $key_color:#887f69;
 
-
-
-
-
 //共通設定
 html{
     font-size:62.5%;
@@ -128,8 +124,6 @@ p,ul{
 }
 
 
-
-
 /*===================================================
 
 ヘッダー
@@ -192,8 +186,6 @@ header{
     }
     
 }
-
-
 
 
 /*=====================================================
@@ -286,6 +278,7 @@ header{
             }
             
         }
+     
         
 /*=============================================================
 
@@ -392,8 +385,6 @@ header{
         div{
            
             padding:7px;
-        
-            
             
             .key_font{
                 color:$key_color;
@@ -455,12 +446,8 @@ header{
          }
     }
 }
-        
-
-    }//.main_contents
+}//.main_contents
     
-
-
   
 /*=============================================================
 
@@ -565,14 +552,7 @@ header{
                 }
         }//contents_detail 
     }//section_contents.search
-    
-    
 }//sub_contents
-
-
-
-
-
 }//.container
 
 // トップに戻るボタン
@@ -625,9 +605,6 @@ footer{
         }//footer_inner
         
     }//footer
-    
-    
-
 
 
 
@@ -913,8 +890,6 @@ TOPページ：メインコンテンツの詳細表示設定
                 }
         }//contents_detail 
     }//section_contents.search
-    
-    
 }//sub_contents
 }//container
 
@@ -961,18 +936,15 @@ footer{
                     margin-left:10px;
                 }
                 
+                }//li
                 
-                }
-                
-            }
+            }//ul
             #copyright{
                 font-size:10px;
                 margin:15px 0;
             }
         }//footer_inner
-        
     }//footer
-    
 }//@media
 
 
@@ -1000,11 +972,8 @@ list.htmlの設定
         text-align:center;
         line-height:40px;
         margin-top:20px;
-        
-        
-        
-    }
-}
+    }//div.btn
+}//.button_area
 
 
 /*================================================================================================
@@ -1118,7 +1087,6 @@ product.htmlの設定
         //テーブルの設定(共通)
         
         table{      
-                    
                     width:100%;
                     margin-bottom:5px;
                     font-size:1.2rem;
@@ -1318,7 +1286,6 @@ product.htmlの設定
                 text-align:right;
                 //float:left;
             }
-        
     }
 }//purchase_area
 
